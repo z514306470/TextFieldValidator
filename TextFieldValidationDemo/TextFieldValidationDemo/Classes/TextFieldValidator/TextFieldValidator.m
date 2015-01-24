@@ -285,6 +285,7 @@
     popUp.fieldFrame=[self.superview convertRect:self.frame toView:presentInView];
     popUp.backgroundColor=[UIColor clearColor];
     [presentInView addSubview:popUp];
+    [presentInView bringSubviewToFront:popUp];
     
     popUp.translatesAutoresizingMaskIntoConstraints=NO;
     NSDictionary *dict=NSDictionaryOfVariableBindings(popUp);

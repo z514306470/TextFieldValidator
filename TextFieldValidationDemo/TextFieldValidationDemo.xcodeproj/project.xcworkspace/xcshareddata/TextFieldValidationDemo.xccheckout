@@ -10,29 +10,29 @@
 	<string>TextFieldValidationDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D3169203-2ECA-471E-B061-7B1B06B5374B</key>
-		<string>https://github.com/dhawaldawar/TextFieldValidator.git</string>
+		<key>B9B76EE0396E6375A87FCCD582658F685DE2FFA4</key>
+		<string>https://github.com/z514306470/TextFieldValidator.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TextFieldValidationDemo/TextFieldValidationDemo.xcodeproj/project.xcworkspace</string>
+	<string>TextFieldValidationDemo/TextFieldValidationDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D3169203-2ECA-471E-B061-7B1B06B5374B</key>
+		<key>B9B76EE0396E6375A87FCCD582658F685DE2FFA4</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/dhawaldawar/TextFieldValidator.git</string>
+	<string>https://github.com/z514306470/TextFieldValidator.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D3169203-2ECA-471E-B061-7B1B06B5374B</string>
+	<string>B9B76EE0396E6375A87FCCD582658F685DE2FFA4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D3169203-2ECA-471E-B061-7B1B06B5374B</string>
+			<string>B9B76EE0396E6375A87FCCD582658F685DE2FFA4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TextFieldValidator</string>
 		</dict>
