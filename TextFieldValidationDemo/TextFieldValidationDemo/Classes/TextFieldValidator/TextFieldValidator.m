@@ -278,19 +278,14 @@
 }
 
 -(void)showErrorWithMsg:(NSString *)msg{
-    popUp=[[IQPopUp alloc] initWithFrame:CGRectZero];
+    popUp=[[IQPopUp alloc] initWithFrame:CGRectMake(0, 0, presentInView.frame.size.width, presentInView.frame.size.height)];
     popUp.strMsg=msg;
     popUp.popUpColor=popUpColor;
     popUp.showOnRect=[self convertRect:self.rightView.frame toView:presentInView];
     popUp.fieldFrame=[self.superview convertRect:self.frame toView:presentInView];
     popUp.backgroundColor=[UIColor clearColor];
     [presentInView addSubview:popUp];
-    [presentInView bringSubviewToFront:popUp];
-    
     popUp.translatesAutoresizingMaskIntoConstraints=NO;
-    NSDictionary *dict=NSDictionaryOfVariableBindings(popUp);
-    [popUp.superview addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[popUp]-0-|" options:NSLayoutFormatDirectionLeadingToTrailing  metrics:nil views:dict]];
-    [popUp.superview addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[popUp]-0-|" options:NSLayoutFormatDirectionLeadingToTrailing  metrics:nil views:dict]];
     supportObj.popUp=popUp;
 }
 
